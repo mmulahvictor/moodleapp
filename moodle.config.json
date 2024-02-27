@@ -1,6 +1,6 @@
 {
     "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "appname": "Edutab eCampus",
     "versioncode": 44000,
     "versionname": "4.4.0",
     "cache_update_frequency_usually": 420000,
@@ -87,7 +87,14 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "name": "EduTab eCampus",
+            "alias": "EduTab eCampus App",
+            "url": "https://www.edutab.africa/ecampus",
+            "staging": false
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
