@@ -128,10 +128,10 @@ export class CoreUnauthenticatedSite {
     getLogoUrl(config?: CoreSitePublicConfigResponse): string | undefined {
         config = config ?? this.publicConfig;
         if (!config || this.forcesLocalLogo()) {
-            return 'assets/img/login_logo.png';
+            return 'assets/img/logo.png';
         }
 
-        return config.logourl || config.compactlogourl || 'assets/img/login_logo.png';
+        return config.logourl || config.compactlogourl || 'assets/img/logo.png';
     }
 
     /**
